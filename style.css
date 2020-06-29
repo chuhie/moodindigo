@@ -1,0 +1,525 @@
+
+        
+		html{font-family: 'Nanum Myeongjo', serif;
+		background:black;
+		scroll-behavior:smooth;
+
+	}
+
+		body,h1,h2,p,footer {margin:0;}
+		body {min-width:1600px;
+		max-width:1600px;}
+		section{text-align:left;}
+		
+		h2{width: 700px;
+		font-family: 'Nanum Myeongjo', serif;
+font-size: 1.3em;
+font-weight:800;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+		img{display:block;width: 100%}
+		footer {height: 100px;
+			background-color: #0d0d0d;
+			padding-top: 500px;
+			}
+
+a:hover{background: white; color: black; transition: 0.5s all;}
+nav a {display: block; 
+	text-decoration: none; 
+	width: 50px; height: 50px; 
+	text-align: center; 
+	line-height: 50px;
+	color: white;
+	background: #0d0d0d;
+	border-radius: 60px; 
+z-index: 10000;
+}
+
+
+
+
+
+.button{width: 50px; 
+	height: 50px; 
+	text-align: center; 
+	line-height: 50px; 
+	margin: 0px; 
+	font-size: 0.8em; 
+	z-index: 10000;
+}
+.position-fixed{position: fixed; z-index: 10000;}
+.fixed-style2{position: fixed; top:600px; left: 30px; z-index: 10000;}
+
+
+
+
+
+	footer p{font-family: 'Nanum Myeongjo', serif;
+font-size: 0.7em;
+font-weight:400;
+color: white;
+line-height:1.8;
+text-align: center;}
+		
+
+
+		.bg-header{
+			height: 3124px;
+			background:url('./image/bg/1.jpg');
+		background-size:100%;}
+
+	.bg-1 {
+		background-color: #f5ddd4;
+		background-size:100%;
+	height: 1775px;}
+
+		.bg-2{
+			height: 2800px;
+			background:url('./image/bg/2.png');
+		background-size:100%;}
+
+
+		.bg-3{
+			height: 2500px;
+			background:url('./image/bg/3.png');
+		background-size:100%;}
+
+		.bg-4{
+			height: 2750px;
+			background:url('./image/bg/4.png');
+		background-size:100%;}
+
+		.bg-5 {
+		background-color: #7291ad;
+		background-size:100%;
+	height: 1731px;}
+
+	.bg-6{
+			height: 3920px;
+			background:url('./image/bg/6.png');
+		background-size:100%;}
+
+
+		.bg-7{
+		background-color: #767676;
+		background-size:100%;
+	height: 1200px;}
+
+
+		.bg-8{
+			height: 2400px;
+			background:url('./image/bg/8.png');
+		background-size:100%;}
+
+			.bg-9{
+		background-color: #0d0d0d;
+		background-size:100%;
+	height: 3000px;}
+
+
+
+
+
+
+
+
+.gondrytitle {
+position: absolute;
+left:0px;)
+top:0px;
+width: 1600px;
+margin: auto;}
+
+.scienceofsleep{
+	width: 250px;
+position: absolute;
+left:950px;
+top:500px;
+margin: auto;}
+
+
+
+
+.mg{
+position: absolute;
+left:250px;
+top:650px;
+width: 250px;
+margin: auto;}
+
+.sunshine{width:700px;
+position: absolute;
+left:900px;
+top:1200px;
+}
+
+.seoron{
+	position: absolute;
+left:200px;
+top:1700px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color: white;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+.myeongun{
+position: absolute;
+left:0px;
+top:2000px;
+width: 1600px;}
+
+
+.myeongun2{
+position: absolute;
+left:850px;
+top:2380px;
+width:700px;}
+
+
+
+.yourlove{
+	position: absolute;
+left:200px;
+top:3150px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color: #2f2e54;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+.moodindigo
+{
+position: absolute;
+left:0px;
+top:3300px;
+width:1600px;}
+
+.butterfly
+{
+position: absolute;
+left:900px;
+top:3350px;
+width: 500px;
+}
+
+.flowerrefresh
+{
+position: absolute;
+left:0px;
+top:4650px;
+width:1600px;
+}
+
+.sun
+{width:400px;
+position: absolute;
+left:700px;
+top:5400px;
+animation: sun 5s infinite;}
+
+
+@keyframes sun{
+	0%{}
+	100%{transform: rotate(360deg);}
+}
+
+.cloud1
+{
+position: absolute;
+left:1000px;
+top:5700px;
+width:300px;
+}
+
+.cloud2
+{
+position: absolute;
+left:150px;
+top:5800px;
+width:400px;
+}
+
+.cloud3
+{
+position: absolute;
+left:1200px;
+top:6300px;
+width:400px;
+}
+
+.cloud4
+{
+position: absolute;
+left:0px;
+top:6300px;
+width:400px;
+}
+
+.cloud5
+{
+position: absolute;
+left:700px;
+top:6600px;
+width:400px;
+animation: cloud 3s infinite alternate;}
+
+
+@keyframes cloud{
+	0%{left:200px;}
+	100%{left:1200px;}
+}
+
+.vividtitle
+{
+position: absolute;
+left:1100px;
+top:7500px;
+width:300px;
+}
+
+.illustionorreal{
+	position: absolute;
+left:200px;
+top:7800px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color: white;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;
+display:inline-block;}
+
+
+#overthetown{left:400px;
+top:9160px;}
+
+
+.vividphoto {width:700px;}
+
+#vivid1 {position: absolute;
+left:200px; top:8100px;}
+#vivid2 {position: absolute;
+left:500px; top:600px;}
+
+
+
+.wealways {
+position: absolute;
+left:800px;
+top:8200px;
+width:600px;
+}
+
+
+
+.rainbow {position: absolute;
+left:1000px;
+top:9800px;
+width:600px;
+animation: rainbowo 1s alternate infinite;}
+
+
+@keyframes rainbowo{
+	0%{opacity:0%;}
+	100%{opacity:100%;}
+}
+
+
+.rainbow2
+{position: absolute;
+left:0px;
+top:10700px;
+width:600px;
+animation: rainbowo 1s alternate infinite;}
+
+
+
+
+.cream
+{position: absolute;
+left:0px;
+top:11100px;
+width:400px;}
+
+
+.pasteltitle
+{
+position: absolute;
+left:550px;
+top:12800px;
+width:400px;
+}
+
+
+.emotion{
+	position: absolute;
+left:200px;
+top:13200px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color: white;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+.pastelphoto1{width:700px;
+position:absolute;
+left:580px; top:13500px;}
+
+.pastelphoto2{width:700px;
+position:absolute;
+left:200px; top:14000px;}
+
+
+.butterfly2
+{
+position: absolute;
+left:1100px;
+top:14800px;
+width: 500px;
+}
+
+
+.flowerchloe
+{position: absolute;
+left:0px;
+top:15500px;
+width:1300px;}
+
+
+.monotonetitle
+{position:absolute;
+left:200px;
+top:17700px;
+width:500px;}
+
+.emotion2{
+	position: absolute;
+left:200px;
+top:18000px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color: white;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+.monotonephoto1{width:700px;
+position:absolute;
+left:200px; top:18250px;}
+
+.monotonephoto2{width:700px;
+position:absolute;
+left:600px; top:18750px;}
+
+.iwillalways
+{position:absolute;
+left:0px;
+top:20200px;
+width:600px;}
+
+.you
+{position:absolute;
+left:0px;
+top:20800px;
+width:300px;}
+
+.loves
+{position:absolute;
+left:500px;
+top:21100px;
+width:400px;}
+
+
+.colorlesstitle
+{position:absolute;
+left:500px;
+top:22150px;
+width:500px;}
+
+
+.colorlove{
+	position: absolute;
+left:200px;
+top:22500px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color:#fc547d;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+.colorlove2{
+	position: absolute;
+left:200px;
+top:23080px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color:#fc547d;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+.colorlessphoto1{width:500px;
+position:absolute;
+left:200px; top:22780px;}
+
+.colorlessphoto2{width:500px;
+position:absolute;
+left:750px; top:22780px;}
+
+
+.endgondry{width:700px;
+position:absolute;
+left:900px; top:23500px;}
+
+
+.end{
+	position: absolute;
+left:200px;
+top:23800px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.4em;
+font-weight:400;
+color:white;
+line-height:1.8;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+.realend
+{
+	position: absolute;
+left:500px;
+top:25000px;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.5em;
+font-weight:700;
+color:white;
+line-height:1.8;
+text-align:center;
+letter-spacing:-1;
+word-spacing:-1;}
+
+
+
+
+
+
+
